@@ -1,0 +1,16 @@
+data_arguments:
+  batch_size: 16
+  embed_size: 1024
+  epochs: 100
+  image_size: 256
+  lr: 0.0004
+  random_image_size: 10
+default_setting:
+  anomaly_images:
+  attach_path: ./results/AnoGAN
+exp_arguments:
+  d_model: 0
+  g_model: 0
+  data_path:
+  datasets_csv_path: ./splits/datasets.csv
+  save_path: RESULTS
